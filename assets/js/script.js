@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Grphic Designer", "UI_UX Designer",  "Social media moderator"],
+    strings: ["Graphic Designer", "UI_UX Designer",  "Social media moderator"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -96,7 +96,7 @@ function showSkills(skills) {
         skillHTML += `
         <div class="bar">
               <div class="info">
-                <img src=${skill.icon} alt="skill" />
+                <img class="skillsImg" src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
             </div>`
