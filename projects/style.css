@@ -39,6 +39,11 @@ html::-webkit-scrollbar-thumb{
   background: #420177;
 }
 
+/* loader-container  */
+.loader-container{
+  display: none;
+}
+
 /* navbar starts */
 header{
   position: fixed;
